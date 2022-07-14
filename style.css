@@ -3,7 +3,9 @@
     
 }
 
-
+body{
+    margin: 0;
+}
 
 .hero {
     max-width: 100%;
@@ -107,7 +109,7 @@
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
-    background-color: antiquewhite;
+    background-color: rgb(250, 231, 203);
     height: auto;
 }
 
@@ -118,22 +120,52 @@
     padding: 14px;
 }
 
+@media all and (max-width: 900px) {
+    .address {margin-top: 21%;}
+}
+
+@media all and (max-width: 600px) {
+    .address {margin-top: 13%;}
+}
+
+@media all and (max-width: 450px) {
+    .address {margin-top: 2%;}
+}
+
+@media all and (max-width: 360px) {
+    .address {margin-top: 0%;}
+}
+
 .image-3 {
-    margin: 20px 20px;
-    width: 300px;
-    height: 290px;
-    left: 40px;
-    top: 100px;
-    border-radius: 5px;
+    
+    object-fit: cover;
+    width: 200px;
+    height: 100%;
+    
        
     }
 
+.aviator{
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin: 20px 20px;
+    left: 40px;
+    top: 100px;
+    border-radius: 5px;
+  
+ }
+
 .section--1{
     display: flex;
+    
+   
 }
 
 .section--2{
     display: flex;
+    
+   
 }
 
 .image-description{
@@ -143,6 +175,22 @@
 .name{
     margin: 0px 20px;
     font-weight: bold;
+}
+
+p-description{
+    font-size: 14px;
+}
+
+@media all and (max-width: 900px) {
+    .p-description {font-size:14px;}
+}
+
+@media all and (max-width: 600px) {
+    .p-description {font-size:12px;}
+}
+
+@media all and (max-width: 400px) {
+    .store-section {font-size:10px;}
 }
 
 .section-location{
